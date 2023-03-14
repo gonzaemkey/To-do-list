@@ -1,0 +1,61 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#main {
+	width: 500px;
+	margin: 0 auto;
+}
+
+input[type="text"] {
+    font-family: 'Courier New', Courier, monospace;
+	padding: 10px;
+	width: 70%;
+	border: none;
+	border-bottom: 1px solid #ccc;
+	font-size: 16px;
+}
+
+button {
+    font-family: 'Courier New', Courier, monospace;
+	padding: 10px;
+	border: none;
+	background-color: #3ed4eb;
+	color: white;
+	font-size: 16px;
+	cursor: pointer;
+}
+
+button:hover {
+	background-color: #a1edec;
+}
+
+li {
+    font-family: 'Courier New', Courier, monospace;
+	list-style: none;
+	padding: 10px;
+	border-bottom: 1px solid #ccc;
+	font-size: 16px;
+}
+
+li.done {
+	text-decoration: line-through;
+}
+
+.delete {
+    background-color: transparent;
+    border: none;
+    color: red;
+    cursor: pointer;
+    font-size: 18px;
+    line-height: 1;
+    padding: 0;
+    display: none; /* Ocultar el botón por defecto */
+    margin-left: 10px;
+  }
+  
+  
+  .delete::before {
+    content: "X";
+  }
+  
